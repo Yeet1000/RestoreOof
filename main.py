@@ -13,7 +13,7 @@ def deleteFile(dirSounds):
         else:
             print("The file does not exist")
 
-dirRoblox = input("Dir: \n")
+dirRoblox = "%LocalAppData%\Roblox\Versions\version-*")
 deleteFile(dirRoblox)
 oofSound = "sounds/ouch.ogg"
 
